@@ -1,16 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace TicketLibrary
 {
-    /// <summary>
-    /// A simple class representing a Car
-    /// </summary>
-    public class Car
+    public class MC
     {
         private string _licensePlate;
 
         /// <summary>
-        /// Represents the license plate of the car 
+        /// Represents the license plate
         /// </summary>
         public string LicensePlate
         {
@@ -19,7 +18,7 @@ namespace TicketLibrary
         }
 
         private DateTime _date;
-            
+
         public DateTime Date
         {
             get { return _date; }
@@ -32,7 +31,7 @@ namespace TicketLibrary
         /// <returns></returns>
         public double Price()
         {
-            double price = 240;
+            double price = 125;
             return price;
         }
         /// <summary>
@@ -41,8 +40,9 @@ namespace TicketLibrary
         /// <returns></returns>
         public string VehicleType()
         {
-            return "Car";
+            return "MC";
         }
+
 
     }
 }
