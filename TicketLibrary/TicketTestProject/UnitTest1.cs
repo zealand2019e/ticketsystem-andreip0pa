@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using TicketLibrary;
 namespace TicketTestProject
 {
@@ -46,6 +47,16 @@ namespace TicketTestProject
             string type = car.VehicleType();
             ///
             Assert.AreEqual(type, "MC");
+        }
+        [TestMethod]
+        public void VehicleExceptionTest()
+        {
+            ///
+            Car c = new Car();
+           
+         
+            ///
+            Assert.ThrowsException<Exception>(()=> { c.LicensePlate = "aaaaaaaaaa"; }, "License plate too long!");
         }
     }
 }
