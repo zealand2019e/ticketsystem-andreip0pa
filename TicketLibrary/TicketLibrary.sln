@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarTester", "CarTester\CarT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storebæltsbroen", "Storebæltsbroen\Storebæltsbroen.csproj", "{4509AAAA-A777-4F45-A879-A816C6533919}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oresund", "Oresund\Oresund.csproj", "{6EE33D78-44EB-446A-B604-DC99DEA87E52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4509AAAA-A777-4F45-A879-A816C6533919}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4509AAAA-A777-4F45-A879-A816C6533919}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4509AAAA-A777-4F45-A879-A816C6533919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE33D78-44EB-446A-B604-DC99DEA87E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE33D78-44EB-446A-B604-DC99DEA87E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE33D78-44EB-446A-B604-DC99DEA87E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE33D78-44EB-446A-B604-DC99DEA87E52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
