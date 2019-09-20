@@ -8,6 +8,10 @@ namespace TicketLibrary
     {
         private string _licensePlate;
 
+        /// <summary>
+        /// return the price for crossing teh bridge for an MC 
+        /// </summary>
+        /// <returns></returns>
         public override double Price()
         {
             double price = 125;
