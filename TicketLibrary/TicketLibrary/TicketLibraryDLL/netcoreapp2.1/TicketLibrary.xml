@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:TicketLibrary.Car">
+            <summary>
+            A simple class representing a Car
+            </summary>
+        </member>
+        <member name="M:TicketLibrary.Car.Price">
+            <summary>
+            Represents the license plate of the car 
+            </summary>
+            <summary>
+            Shows the price
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TicketLibrary.Car.VehicleType">
+            <summary>
+            Shows the vehicle type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TicketLibrary.MC.VehicleType">
+            <summary>
+            Shows the vehicle type
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

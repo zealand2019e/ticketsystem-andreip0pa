@@ -8,25 +8,13 @@ namespace TicketLibrary
     public class Car:Vehicle
     {
     
-
-        /// <summary>
-        /// Represents the license plate of the car 
-        /// </summary>
-        
-        
-          
-
-        
-            
-  
-
-        /// <summary>
-        /// Shows the price
-        /// </summary>
-        /// <returns></returns>
         public override double Price()
         {
             double price = 240;
+            if (Brobizz)
+            {
+                price -= 240 * 5 / 100;
+            }
             return price;
         }
         /// <summary>

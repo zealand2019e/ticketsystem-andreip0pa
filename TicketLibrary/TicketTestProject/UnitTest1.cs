@@ -58,5 +58,20 @@ namespace TicketTestProject
             ///
             Assert.ThrowsException<Exception>(()=> { c.LicensePlate = "aaaaaaaaaa"; }, "License plate too long!");
         }
+
+        [TestMethod]
+        public void CarDiscoutnTest()
+        {
+            ///
+            Car car = new Car();
+            ///
+           
+            car.Brobizz = true;
+            
+
+            double price = car.Price();
+            ///
+            Assert.AreEqual(price, 228);
+        }
     }
 }

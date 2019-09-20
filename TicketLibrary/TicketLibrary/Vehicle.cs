@@ -16,7 +16,7 @@ namespace TicketLibrary
                 return licensePlate;
 
                 }
-
+           
 
 
             set {
@@ -32,6 +32,10 @@ namespace TicketLibrary
                 }
 
         }
+
+
+
+        public bool Brobizz { get; set; }
         public DateTime Date { get; set; }
         public abstract string VehicleType();
         public abstract double Price();
