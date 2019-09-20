@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Oresund
 {
-   public class MC:TicketLibrary.MC;
+   public class MC:TicketLibrary.MC
     {
         bool brobizz = false;
 
