@@ -11,9 +11,13 @@ namespace TicketLibrary
         public override double Price()
         {
             double price = 240;
+            if (DateTime.Today.DayOfWeek==DayOfWeek.Saturday || DateTime.Today.DayOfWeek == DayOfWeek.Sunday)
+            {
+                price -= price * 20 / 100;
+            }
             if (Brobizz)
             {
-                price -= 240 * 5 / 100;
+                price -= price * 5 / 100;
             }
             return price;
         }
